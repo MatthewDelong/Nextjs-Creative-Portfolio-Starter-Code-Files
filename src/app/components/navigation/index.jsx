@@ -13,7 +13,7 @@ const Navigation = () => {
         BtnList.map((btn, index) => {
 
             const angleRad = (index*angleIncrement*Math.PI)/180
-            const radius = 'calc(20vw - 1rem)'
+            const radius = 'calc(20vw - 1rem)';
             const x = `calc(${radius}*${Math.cos(angleRad)})`;
             const y = `calc(${radius}*${Math.sin(angleRad)})`;
 
